@@ -14,7 +14,7 @@ for(i in 1:(dim(return_all)[1]-12)){
   return[i] <- mean(apply(return_all[i:(i+12),],2,mean))
 }    # wektor srednich miesiecznych stóp zwrotu z 1 roku wstecz dla wszystkich spólek
 X0 <- 10000   # kapital poczatkowy
-portfolioMarkowitz()
+portfolioMarkowitz(aaa)
 
 
 
